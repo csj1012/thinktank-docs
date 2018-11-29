@@ -50,6 +50,7 @@
   - Change the filename to remove `sample` so it's just `wp-config.php`.
   - add snippet to `wp-config.php` to make custom plugins work.
 
+
 5. Change the permissions of the site's root directory so you can upload stuff:
 `chmod -R 757 foo`
 
