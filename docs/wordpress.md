@@ -1,8 +1,6 @@
 # Wordpress
 
-> An awesome project.
-
-## Creating a new Wordpress site
+## Local Dev: Create a new WP site
 
 1. Create DB in XAMPP.
 2. [With the `lampp` volume mounted](stack.md?id=mount-lampp-volume), create a new folder for your project in `htdocs` (`/Users/thinktank/.bitnami/YOURUSERNAME/machines/xampp/volumes/root/htdocs`).
@@ -15,8 +13,10 @@
 5. Change the permissions of the site's root directory so you can upload stuff:
 `chmod -R 757 foo`
 
+## Local Dev: Pull down existing WP site
+
 ## Theming
 
-### How to get your templates to show up:
+### Getting your templates to show up
 
 Template hierarchy: https://developer.wordpress.org/themes/basics/template-hierarchy/
