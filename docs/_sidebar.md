@@ -3,3 +3,4 @@
 * [Home](/)
 * [Stack](stack.md)
 * [Wordpress](wordpress.md)
+* [Josh's Cheatsheet](cheatsheet.md)
