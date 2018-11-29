@@ -14,3 +14,9 @@
 - add snippet to `wp-config.php` to make custom plugins work.
 5. Change the permissions of the site's root directory so you can upload stuff:
 `chmod -R 757 foo`
+
+## Theming
+
+### How to get your templates to show up:
+
+Template hierarchy: https://developer.wordpress.org/themes/basics/template-hierarchy/
