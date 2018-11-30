@@ -1,6 +1,6 @@
-# Docs!
+# ThinkTank Developer Docs!
 
-> Mostly just a place to dump documentation so I don't hate myself later.
+> Mostly just a place to dump documentation so I don't hate myself later. — Chelsie
 
 ## Getting started
 

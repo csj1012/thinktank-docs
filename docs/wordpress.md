@@ -51,17 +51,19 @@
   - add snippet to `wp-config.php` to make custom plugins work.
 
 
-5. Change the permissions of the site's root directory so you can upload stuff:
+6. Change the permissions of the site's root directory so you can upload stuff:
 `chmod -R 757 foo`
 
 ## Local Dev: Pull down existing WP site
 
 You can use WordPress' handy Duplicator plugin to export a copy of a WP site's database and files, and use that export to populate a local site with content (or vice versa).
 
-1. Go to the site you want to copy and go to Admin > Plugins > Duplicator
-2. Click the button on the left
-3. There should be two files, a `zip` and an installer (?). Put them in your local docroot/project folder.
-4. Go to `localhost:8080/project-name`
+1. Go to the site (staging) you want to copy and go to Admin > Plugins > Duplicator (`/wp-admin/admin.php?page=duplicator`).
+2. Click the "Installer" and "Archive" buttons.
+4. Follow the instructions for [Local Dev: Create a new WP site](http://localhost:3000/#/wordpress?id=local-dev-create-a-new-wp-site) above and name everything after the name of the project, including a new database with user and password.
+3. Place the downloaded files in your local docroot/project folder. No need to replace the database in PHPMyAdmin, just go to the installer/duplicator page at `localhost:8080/project-name/installer.php` and follow the prompt. Click "Test Database" before you click "Next" on the Install Database step. Leave optional options untouched. You will have to set permissions as in step 6 above.
+4. Log in to the Admin interface using the logins from the server.
+5. Click the green link at the top of the page to remove the installer files.
 
 ## Theming
 
