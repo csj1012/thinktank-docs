@@ -10,7 +10,7 @@ This documentation is written in Markdown and was generated using [Docsify](http
 
 1. **Install dependencies:** You might need to install these first if you don't have them already:
   - Node and NPM (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-  - XCode Command Line Tools: `xcode select --install`
+  - XCode Command Line Tools: https://developer.apple.com/download/more/ (select the version that corresponds to your version of MacOS, download and open the `.pkg`, and follow the prompt)
 
 1. **Clone the repo:** `git clone https://github.com/csj1012/thinktank-docs.git`
  - If you get the error `fatal: Authentication failed...`, then set up your [Personal Access Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) in your Github account settings.
