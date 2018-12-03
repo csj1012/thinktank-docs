@@ -1,6 +1,6 @@
 # Josh's Cheatsheet
 
-> Josh's cheatsheet of miscellaneous stuff that I'm dumping here before he leaves :( 
+> Josh's cheatsheet of miscellaneous stuff that I'm dumping here before he leaves :(
 
 ## Change where a site points
 
@@ -12,7 +12,7 @@
 
 ## Set up Stage Site
 
-1. `ssh root@192.168.0.253`
+1. `ssh root@192.168.0.253` (internal) or `ssh root@47.50.138.146` (external) – so far this has only worked in FileZilla
 
 2. Enter the password. You know the one.
 
