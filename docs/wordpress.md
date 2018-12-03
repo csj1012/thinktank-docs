@@ -65,6 +65,18 @@ You can use WordPress' handy Duplicator plugin to export a copy of a WP site's d
 
 ## Theming
 
+### Creating a new theme
+
+https://developer.wordpress.org/themes/basics/
+
+Copy the `twentyseventeen` theme directory...?
+
+Make sure it has a `.css` file.
+
 ### Getting your templates to show up
 
 Template hierarchy: https://developer.wordpress.org/themes/basics/template-hierarchy/
+
+### Adding a custom post type
+
+Use https://generatewp.com/ to generate a custom post type. Paste it into `functions.php` in the theme directory.
