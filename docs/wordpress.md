@@ -4,6 +4,8 @@
 
 #### (XAMPP version 7.x.x)
 
+XAMPP-vm documentation: https://www.apachefriends.org/blog/new_xampp_20170628.html
+
 1. **Start XAMPP:** [Make sure XAMPP is running](stack.md?id=xampp).
 1. **Create a new database via PHPMyAdmin:** With XAMPP running, navigate to PHPMyAdmin (most likely at  http://localhost:8080/phpmyadmin/index.php, but you can also find it by clicking the "Go to Application" button in XAMPP's "General" tab — in the top right corner of the resulting webpage, click "PHPMyAdmin").
 
@@ -97,7 +99,31 @@ Template hierarchy: https://developer.wordpress.org/themes/basics/template-hiera
 - Custom field thing
 - Really Simple SSL plugin
 
+## Google Analytics
+
+I've been doing this by adding the GA code to `functions.php`; not sure how was doing it. There are a few plugins to handle this, but it's unclear which is the better method. https://www.wpbeginner.com/beginners-guide/how-to-install-google-analytics-in-wordpress/ (That page says adding it via plugin is the best method, but adding it in the code seems cleaner? Downside: theme dependent)
+
+Add the following to `functions.php` in the active theme directory:
+
+```
+function ns_google_analytics() { ?>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121810903-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'YOUR-TRACKING-CODE-FROM-GOOGLE-ANALYTICS');
+  </script>
+  <?php
+  }
+
+add_action( 'wp_head', 'ns_google_analytics', 10 );
+```
+
+## Hosting
+
 ### If a client needs hosting
+
 Recommend to clients:
 - HostGator or GoDaddy or similar
 
