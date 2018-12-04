@@ -12,7 +12,7 @@ Someone will (on the client side, but you may have to):
 ## HostGator
 
 ### Existing WordPress Site via HostGator WordPress package
-
+ 
 1. Go to Hosting > Manage package
 
 1. On your local machine, set hosts file entry to the new site IP from the host `sudo nano /etc/hosts`. This is so you can run the installer at `wp-installer.php` on the destination (live) site.
