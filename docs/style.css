@@ -1,3 +1,10 @@
 img {
   max-width: 50%;
 }
+
+h3 .anchor {
+    display: block;
+    width: 100%;
+    background: #efefef;
+    padding-left: .3em;
+}
