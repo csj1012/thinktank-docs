@@ -4,4 +4,5 @@
 * [Stack](stack.md)
 * [Wordpress](/wordpress.md)
 * [Josh's Cheatsheet](cheatsheet.md)
-* [Tech Debt](tech-debt.md)
+* [Eblasts](eblasts.md)
+* [Tech Debt](techdebt.md)
