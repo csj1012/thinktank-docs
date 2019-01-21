@@ -82,7 +82,7 @@ You can use WordPress' handy Duplicator plugin to export a copy of a WP site's d
 
 ## Staging Sites
 
-Staging sites are hosted on our local in-office server, accessible from within the office at `192.168.0.253`. Credentials on Basecamp [here](https://3.basecamp.com/3593713/buckets/1887887/uploads/1543763349). Current workflow: import the `xml` file from Basecamp into FileZilla and then access the imported saved connected via `File > Site Manager`.
+Staging sites are hosted on our local in-office server, accessible from within the office at `192.168.0.253`. Credentials on Basecamp [here](https://3.basecamp.com/3593713/buckets/1887887/uploads/1543763349), see also [Set up Stage Site](http://localhost:3000/#/cheatsheet?id=set-up-stage-site). Current workflow: import the `xml` file from Basecamp into FileZilla and then access the imported saved connected via `File > Site Manager`.
 
 Staging sites have names like `foo-com.thinktankprm.com` and live at `/var/www/html/foo-com.thinktankprm.com`.
 
