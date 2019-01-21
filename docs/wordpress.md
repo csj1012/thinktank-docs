@@ -80,6 +80,12 @@ You can use WordPress' handy Duplicator plugin to export a copy of a WP site's d
 5. Click the green link at the top of the page to remove the installer files.
 6. Some of the images might not work due to routing issues.
 
+## Staging Sites
+
+Staging sites are hosted on our local in-office server, accessible from within the office at `192.168.0.253`. Credentials on Basecamp [here](https://3.basecamp.com/3593713/buckets/1887887/uploads/1543763349). Current workflow: import the `xml` file from Basecamp into FileZilla and then access the imported saved connected via `File > Site Manager`.
+
+Staging sites have names like `foo-com.thinktankprm.com` and live at `/var/www/html/foo-com.thinktankprm.com`.
+
 ## Theming
 
 ### Starter themes
