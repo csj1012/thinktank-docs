@@ -1,6 +1,6 @@
 # ThinkTank Developer Docs!
 
-> Mostly just a place to dump documentation so I don't hate myself later. — Chelsie
+> Feel free to clone at: https://github.com/csj1012/thinktank-docs
 
 ## Getting started
 

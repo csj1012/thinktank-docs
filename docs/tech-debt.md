@@ -12,3 +12,5 @@
 
 - Hard coding images / routing links
 - Deployment workflow
+- Hosting and management of client logins
+- Backups, updates, and support for sites we've handed off
